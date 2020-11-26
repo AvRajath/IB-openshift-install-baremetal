@@ -15,7 +15,7 @@ Guide to setup openshift cluster on baremetal node with services such as DNS, HA
   - [Wait for installation to complete](#wait-for-installation-to-complete)
   - [Join Worker Nodes](#join-worker-nodes)
   - [Configure storage for the Image Registry](#configure-storage-for-the-image-registry)
-  - WIP
+  - [Setup OpenShift-CNV](#Setup-openshiftCNV)
 
 ## Architecture Diagram
 
@@ -557,4 +557,4 @@ Guide to setup openshift cluster on baremetal node with services such as DNS, HA
    oc get pvc -n openshift-image-registry
    ```
 
-TBC
+## Setup OpenShift-CNV
